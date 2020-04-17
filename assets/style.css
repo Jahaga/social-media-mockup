@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    width: 850px;
+    height: 425px;
+    background-color: #3b5998;
+    
+}

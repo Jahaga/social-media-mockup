@@ -1,11 +1,141 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: lightgray;
 }
 
 .header {
-    position: fixed;
     width: 850px;
-    height: 425px;
+    height: 400px;
+}
+
+.header-bg {
+    height: 400px;
     background-color: #3b5998;
+    border-radius: 0.5%;
+}
+
+.profile-heading {
+    height: 50px;
+    background-color: white;
+
+    position: relative;
+    top: -25px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    background-color: #3b5998;
+
+    border: 1px solid black;
+    border-radius: 1%;
+
+    position: relative;
+    top: -202px;
+    left: -310px;
     
+}
+
+.site-info {
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 230px;
+}
+
+.site-info h3 {
+    font-weight: lighter;
+}
+
+.profile-heading li {
+    width: 50%;
+    list-style: none;
+    padding: 8px 9px 8px 9px;
+
+    font-size: 14px;
+
+    display: inline;
+    position: relative;
+    top: 12px;
+    left: 180px;
+}
+
+.list-border {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.profile-heading a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 3px 0 0 #3b5998;
+}
+
+.interact-menu {
+    float: right;
+    
+    position: relative;
+    top: -280px;
+    left: -10px;
+}
+
+.interact-bar button {
+    border: 1px solid gray;
+    line-height: 15px;
+    padding: 5px 10px;
+
+    cursor: pointer;
+    font-weight: bold;
+
+    position: relative;
+    top: 5px;
+    left: -3px;
+    float: left;
+}
+
+.like {
+    margin-right: 10px;
+}
+
+.follow {
+    color: gray;
+    font-weight: bold;
+}
+
+.layout {
+    width: 850px;
+    height: 100%;
+
+    position: relative;
+    top: -200px;
+}
+
+.column-info {
+    width: 328px;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 1%;
+    
+    background-color: white;
+
+    float: left;
+}
+
+.column-updates {
+    width: 512px;
+    height: 300px;
+    border-radius: 1%;
+
+    position: relative;
+    top: -26px;
+    background-color: white;
+
+    float: left;
 }
